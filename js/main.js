@@ -2,7 +2,7 @@
 
 let i = 1;
 
-while (i < 10) {
+while (i <= 10) {
   console.log(i);
 
   i++;
@@ -29,7 +29,7 @@ for (let k = 1; k <= 10; k++) {
 const arr1 = [1, 2, 3, 4, 5];
 let l = 0;
 
-while (l < 4) {
+while (l <= 4) {
   console.log(arr1[l]);
 
   l++;
@@ -63,8 +63,10 @@ for (let n = 1; n < number; n++) {
 
 let o = 0;
 
-while (o < 20) {
+while (o <= 20) {
   if (o % 3 === 0) {
+    o++;
+
     continue;
   }
 
